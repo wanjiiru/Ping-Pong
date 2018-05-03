@@ -12,13 +12,51 @@
     </head>
 
     <body>
-    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3>Ping Pong</h3>
+                <p>Let's Play a Game of Ping Pong</p>
+            </div>
+        </div>
+    </div>
 
-
-
-
-
-
+    <div class="container">
+        <div class="container" id="about">
+            <div class="container about">
+                <h1>About Ping Pong</h1>
+                <h3>Level 2 Test for Java</h3>
+            </div>
+        </div>
+        <div class="container-fluid" id="play-now">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 description">
+                        <h2>Let's Play!</h2>
+                        <h3>Rules:</h3>
+                        <p>Ping pong will count up to your number from 1 with the following exceptions:</p>
+                        <ol>
+                            <li>Numbers divisible by 3 become 'Ping'</li>
+                            <li>Numbers divisible by 5 become 'Pong'</li>
+                            <li>Numbers divisible by 15 become 'Ping Pong!'</li>
+                        </ol>
+                        <form id="get-results">
+                            <div class="form-group">
+                                <label for="user-input">Enter your number here:</label>
+                                <input type="number" id="user-input" class="form-control" required>
+                            </div>
+                            <button type="submit" class="btn btn-default btn-lg" id="find-out">Find Out</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="row disp-results">
+                    <div class="col-md-3">
+                        <ul id="list-1" class="list-group">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     </body>
-
     </html>
