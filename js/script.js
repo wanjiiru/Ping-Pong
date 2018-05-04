@@ -15,7 +15,7 @@ function getResponse(play){
 
 $(document).ready(function () {
     $("form#results").submit(function (event) {
-        $("ul#list-1").text('');
+        $("ul#list").text('');
         event.preventDefault();
         var num = $("#user-input").val();
         console.log(num);
