@@ -10,59 +10,156 @@
         <script src="js/jquery.js"></script>
         <script src="js/script.js"></script>
     </head>
-
     <body>
-    <div class="container">
-        <div class="row game">
-            <div class="col-md-12">
-                <h3>Ping Pong</h3>
-                <p>Let's Play a Game of Ping Pong</p>
-            </div>
-        </div>
-    </div>
+        <div class="container-fluid">
 
-    <div class="container">
-        <div class="container" id="about">
-            <div class="container about">
-                <h1>About Ping Pong</h1>
-                <h3>Level 2 Test for Java</h3>
-            </div>
-        </div>
-        <div class="container-fluid" id="play-now">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 description">
-                        <h2>Let's Play!</h2>
-                        <h3>Rules:</h3>
-                        <p>Ping pong will count up to your number from 1 with the following exceptions:</p>
-                        <ol>
-                            <li>Numbers divisible by 3 become 'Ping'</li>
-                            <li>Numbers divisible by 5 become 'Pong'</li>
-                            <li>Numbers divisible by 15 become 'Ping Pong!'</li>
-                        </ol>
-                        <form id="get-results">
-                            <div class="form-group">
-                                <label for="user-input">Enter your number here:</label>
-                                <input type="number" id="user-input" class="form-control" required>
-                            </div>
-                            <button type="submit" class="btn btn-default btn-lg" id="find-out">Find Out</button>
-                        </form>
+            <div class="heading">
+                <div class="row text-center">
+                    <div class="col-md-12">
+                        <h4>Ping Pong</h4>
+                        <p> Let us play a Game of PIng Pong</p>
                     </div>
                 </div>
 
+            </div>
 
-                <div class="row disp-results">
-                    <div class="col-md-3">
-                        <ul id="list-1" class="list-group">
+            <div class="row" id="about">
+                <div class="container about">
+                    <h1>About Ping Pong</h1>
+                    <h4>Level 2 Test for Java</h4>
+                    <br>
+                    <h3>Created By:</h3>
+                    <h5>Wanjiru Nganga</h5>
+                    <br>
+                    <a href="https://github.com/wanjiiru" class="btn btn-default btn-lg" target="_blank">
+                        <i class="fa fa-github"></i> GITHUB</a>
+                    <a href="https://twitter.com/Wanjiiru_" class="btn btn-default btn-lg" target="_blank">
+                        <i class="fa fa-twitter"></i> Twitter</a>
+                </div>
+            </div>
 
-                        </ul>
+            <div class="container-fluid" id="play">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 desc">
+                            <h2>Let's Play!</h2>
+                            <h3>Rules:</h3>
+                            <p>Ping pong will count up to your number from 1 with the following exceptions:</p>
+                            <ul>
+                                <li>Numbers divisible by 3 become 'Ping'</li>
+                                <li>Numbers divisible by 5 become 'Pong'</li>
+                                <li>Numbers divisible by 15 become 'Ping Pong!'</li>
+                            </ul>
+                            <form id="get-results">
+                                <div class="form-group">
+                                    <label for="user-input">Enter your number here:</label>
+                                    <input type="number" id="user-input" class="form-control" required>
+                                </div>
+                                <button type="submit" class="btn btn-default btn-lg" id="find-out">Find Out</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="row disp-results">
+                        <div class="col-md-3">
+                            <ul id="list-1" class="list-group">
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
 
 
 
+
+
+
+
+            <!--<div class="row">-->
+                <!--<footer class="text-center" id="footer">-->
+                    <!--<h4>Copyright &copy; Ping Pong.</h4>-->
+                <!--</footer>-->
+            <!--</div>-->
+
+
+
+
         </div>
-    </div>
+
+
+
+
+
+        <!--<div class="container-fluid">-->
+        <!--<div class="row text-center">-->
+            <!--<div class="landing">-->
+                <!--<section>-->
+                    <!--<h3>Ping Pong </h3>-->
+                    <!--<p>Let us play a Game of PIng Pong</p>-->
+                <!--</section>-->
+            <!--</div>-->
+        <!--</div>-->
+
+    <!--</div>-->
+
+
+
+
+    <!--&lt;!&ndash;<div class="container-">&ndash;&gt;-->
+        <!--&lt;!&ndash;<div class="row game">&ndash;&gt;-->
+            <!--&lt;!&ndash;<div class="col-md-12">&ndash;&gt;-->
+                <!--&lt;!&ndash;<h3>Ping Pong</h3>&ndash;&gt;-->
+                <!--&lt;!&ndash;<p>Let's Play a Game of Ping Pong</p>&ndash;&gt;-->
+            <!--&lt;!&ndash;</div>&ndash;&gt;-->
+        <!--&lt;!&ndash;</div>&ndash;&gt;-->
+    <!--&lt;!&ndash;</div>&ndash;&gt;-->
+
+    <!--<div class="jumbotron">-->
+        <!--<div class="container" id="about">-->
+            <!--<div class="container about">-->
+                <!--<h1>About Ping Pong</h1>-->
+                <!--<h3>Level 2 Test for Java</h3>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+
+
+
+
+
+        <!--<div class="jumbotron-fluid" id="play-now">-->
+            <!--<div class="container">-->
+                <!--<div class="row">-->
+                    <!--<div class="col-md-12 description">-->
+                        <!--<h2>Let's Play!</h2>-->
+                        <!--<h3>Rules:</h3>-->
+                        <!--<p>Ping pong will count up to your number from 1 with the following exceptions:</p>-->
+                        <!--<ol>-->
+                            <!--<li>Numbers divisible by 3 become 'Ping'</li>-->
+                            <!--<li>Numbers divisible by 5 become 'Pong'</li>-->
+                            <!--<li>Numbers divisible by 15 become 'Ping Pong!'</li>-->
+                        <!--</ol>-->
+                        <!--<form id="get-results">-->
+                            <!--<div class="form-group">-->
+                                <!--<label for="user-input">Enter your number here:</label>-->
+                                <!--<input type="number" id="user-input" class="form-control" required>-->
+                            <!--</div>-->
+                            <!--<button type="submit" class="btn btn-default btn-lg" id="find-out">Find Out</button>-->
+                        <!--</form>-->
+                    <!--</div>-->
+                <!--</div>-->
+
+
+                <!--<div class="row disp-results">-->
+                    <!--<div class="col-md-3">-->
+                        <!--<ul id="list-1" class="list-group">-->
+
+                        <!--</ul>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+
+
+
+        <!--</div>-->
     </body>
     </html>

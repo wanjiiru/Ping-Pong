@@ -3,6 +3,107 @@
 }
 
 
-.game{
-    background-image: url("../img/ping-pong.gif");
+
+
+
+
+.heading h1 {
+    font-family: 'Allura', 'Rochester', serif;
+    font-size: 1000%;
+    font-style:italic;
+}
+
+.heading p {
+    font-family: 'Rancho', sans-serif;
+    font-size: 200%;
+}
+
+.heading {
+    text-align: center;
+    color: white;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background: url("../img/ping.jpg");
+    padding-top: 22em;
+    padding-bottom: 22em;
+}
+
+
+
+.about {
+    padding-top: 5em;
+    padding-bottom: 3em;
+    text-align: center;
+    font-family: "Julius Sans", sans-serif;
+}
+
+
+#footer{
+
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #000000;
+    text-align: center;
+
+}
+
+#footer h4 {
+    margin: 0;
+    padding-top: 2em;
+    padding-bottom:0;
+    color: #721c24;
+    font-family: "Julius Sans", sans-serif;
+}
+
+
+a.btn,
+button.btn {
+    border: solid 1px rgba(230, 130, 16, 0.973);
+    color: #721c24;
+    background-color: rgba(199, 197, 197, 0.062);
+}
+
+
+.desc a,
+.desc button {
+    font-family: Roboto, fantasy;
+}
+
+.desc {
+    padding-left: 10%;
+}
+
+.list-group {
+    padding-top: 3em;
+    list-style-type: none;
+}
+
+.disp-results {
+    padding-left: 10%;
+}
+
+
+.desc a {
+    color: rgb(0, 93, 233);
+}
+
+.desc h2 {
+    text-align: center;
+    font-family: "Julius Sans", sans-serif;
+}
+
+
+
+#play {
+    background-color:#ced4da;
+    padding-top: 5em;
+    padding-bottom: 3em;
+}
+
+.form-control {
+    width: 20vw;
 }
