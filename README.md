@@ -28,7 +28,7 @@ No bugs so far.
     4. jQuery
 
 ## Support and contact details
-Contact me on for any comments, reviews or advice.
+Contact me on for any comments.
 
 ### License
 Copyright (c) **Wanjiiru**
