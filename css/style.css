@@ -65,7 +65,7 @@
 
 a.btn,
 button.btn {
-    border: solid 1px rgba(230, 130, 16, 0.973);
+    border: solid coral;
     color: #721c24;
     background-color: rgba(199, 197, 197, 0.062);
 }
