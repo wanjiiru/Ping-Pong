@@ -1,3 +1,8 @@
 .myList{
     list-style: none;
 }
+
+
+.game{
+    background-image: url("../img/ping-pong.gif");
+}

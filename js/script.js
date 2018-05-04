@@ -15,15 +15,19 @@ function getResponse(play){
 
 $(document).ready(function () {
     $("form#get-results").submit(function (event) {
+        $("ul#list-1").text('');
         event.preventDefault();
         var num = $("#user-input").val();
-        console.log(num)
+        console.log(num);
         for(var counter =1;counter <=num; counter ++ ) {
-            var result = getResponse(counter)
-            console.log(result)
+            var result = getResponse(counter);
+            console.log(result);
             $("ul#list-1").append("<li class='myList'>"+result+"</li>")
         }
         $("#user-input").val("");
-    })
+
+    });
 
 });
+
+
