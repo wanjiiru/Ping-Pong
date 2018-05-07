@@ -10,15 +10,16 @@
 
 
 
-.heading h1 {
-    font-family: 'Allura', 'Rochester', serif;
-    font-size: 1000%;
+.heading h4 {
+    font-size: 700%;
     font-style:italic;
+    color:whitesmoke;
 }
 
 .heading p {
     font-family: 'Rancho', sans-serif;
     font-size: 200%;
+    color:#ced4da;
 }
 
 .heading {
@@ -30,6 +31,7 @@
     background: url("../img/ping.jpg");
     padding-top: 22em;
     padding-bottom: 22em;
+    opacity: 0.7;
 }
 
 
@@ -104,6 +106,7 @@ button.btn {
     background-color:#ced4da;
     padding-top: 5em;
     padding-bottom: 3em;
+    width: 100%;
 }
 
 .form-control {
