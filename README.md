@@ -1,5 +1,5 @@
 # Ping-pong
-#### Third Independent Project for Moringa prep class , April 4, 2018
+#### Third Independent Project for Moringa prep 9 class , April 4, 2018
 #### By **Wanjiru Nganga**
 
 ## Description
@@ -28,7 +28,6 @@ No bugs so far.
     4. jQuery
 
 ## Support and contact details
-Contact me for any comments.
-
+Contact me for any comments
 ### License
 Copyright (c) **Wanjiiru**
