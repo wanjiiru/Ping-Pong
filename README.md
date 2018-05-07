@@ -24,7 +24,7 @@ No bugs so far.
 ## Technologies Used
     1. HTML
     2. css (Bootstrap)
-    3. js
+    3. Js
     4. jQuery
 
 ## Support and contact details
